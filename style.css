@@ -1,0 +1,200 @@
+body {
+    font-family: 'Yantramanav', 'bio-sans', sans-serif;
+    background-color: #fafafa;
+    color: #282828;
+}
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    font-family: 'bio-sans', sans-serif;
+    border-bottom: 1px solid #ededed;
+    background-color: #fafafa;
+    position: sticky; top: 0;
+    z-index: 1;
+}
+header .container .row {
+    height: 62px;
+}
+a {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #282828;
+}
+a:hover {
+    opacity: 0.6;
+    color: inherit;
+}
+.opa:hover {
+    opacity: 0.8;
+    transition: 0.3s;
+}
+.flex {
+    display: flex;
+}
+.next-arrow {
+    height: 20px;
+    margin: 4px 0px 0px 6px;
+}
+nav .btn {
+    border: none;
+    padding: 0;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    letter-spacing: 0.5px;
+    background-color: #DE658E;
+    border-radius: 30px;
+}
+.navbar-nav a {
+    border: none;
+    padding: 6px 30px 6px 30px;
+    transition: 0.3s;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    float: right;
+    letter-spacing: 0.5px;
+    background-color: transparent;
+    color: #898989;
+}
+.navbar-bottom a {
+    color: #282828;
+}
+nav .navbar-brand {
+    padding: 0;
+    font-family: 'Yantramanav', sans-serif;
+    color: #282828;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+    font-size: 28px;
+    color: #DE658E;
+    font-weight: 700;
+}
+.navbar-nav a:hover {
+    color: #898989;
+}
+nav .btn:hover {
+    color: white;
+    background-color: #DE658E;
+    opacity: 0.6;
+}
+nav {
+    background-color: white;
+}
+nav li a {
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+    letter-spacing: 0.5px;
+}
+nav li a:hover {
+    color: black;
+    opacity: 0.6;
+}
+.nav-secondary {
+    border-bottom: 1px solid #ededed;
+}
+#banner {
+    text-align: center;
+    width: 100%;
+}
+.bannertext, .bannertext h2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    text-align: center;
+    max-width: 800px;
+    font-size: 20px;
+    font-style: italic;
+}
+#qoute {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.greybg {
+    background-color: #f5f5f5;
+}
+.whitebg {
+    background-color: white;
+}
+.hr {
+    border-top: 1px solid #ededed;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}
+.ptop {
+    padding-top: 50px;
+}
+.pbot {
+    padding-bottom: 50px;
+}
+.box h2 {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.col-sm .box img {
+    max-height: 100%;
+    max-width: 100%;
+}
+/* Footer */
+.footerbanner {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative; /* Textbox over enable */
+}
+.footerbanner .textbox {
+    position: absolute;
+    background-color: white;
+    width: 90%;
+    padding: 40px 40px 60px 40px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: left;
+    border: 1px solid #ededed;
+}
+.footerbanner .textbox h1, .footerbanner .textbox h4 {
+    color: #707070;
+    font-size: 16px;
+}
+.left-align {
+    text-align: right;
+}
+.some {
+    padding-bottom: 20px;
+}
+.some label {
+    font-size: 10px;
+    padding-right: 6px;
+}
+.some .icons img {
+    margin-left: 20px;
+}
+@media only screen and (max-width: 800px) {
+    .navbar-brand mb-1 img {
+        width: 50px;
+    }
+    .navbar-brand>img {
+        width: 240px;
+      }
+    .footerbanner {
+        height: 400px;
+    }
+    .footer .textbox {
+        height: 100%;
+    }
+  }
